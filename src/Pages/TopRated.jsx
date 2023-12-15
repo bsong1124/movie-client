@@ -12,7 +12,7 @@ const Movies = () => {
         if (movieData) setTopRated(movieData);
         setIsLoading(false)
     }
-    
+    console.log('topRated', topRated[0])
     const renderTopRated = () => (
             topRated.map((m, idx) => (
                 <div key={idx}>
