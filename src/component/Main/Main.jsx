@@ -1,5 +1,14 @@
+import {Routes, Route} from 'react-router-dom'
+import Movies from '../../Pages/Movies'
+
 const Main = () => {
-    return <h3>Main Component</h3>
+    return (
+        <main className='main'>
+            <Routes>
+                <Route path='/' element={<Movies />} />
+            </Routes>
+        </main>
+    )
 }
 
 export default Main
