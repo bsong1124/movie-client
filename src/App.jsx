@@ -9,7 +9,6 @@ import Main from './component/Main/Main'
 const App = () => {
   return (
     <div className='app'>
-      <Header />
       <Main />
     </div>
   )
